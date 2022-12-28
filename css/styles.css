@@ -1,0 +1,42 @@
+:root {
+    --twitter-blue: 
+    
+}
+
+@media (min-width: 640px){
+
+    #main {
+     display: flex;
+     flex-direction: column;
+    }
+
+    #main p {
+     font-size: 2rem;
+     margin: auto;
+ }
+
+ #div-one-img {
+     height: 200px;
+     width: 200px;
+     border-radius: 50%;
+     margin: auto;
+ }
+ 
+ }
+ 
+ @media (min-width: 768px){
+ 
+
+ 
+ }
+ 
+ @media (min-width: 1024px){
+ 
+
+ 
+ }
+ 
+ @media (min-width: 1200px){
+ 
+ }
+
