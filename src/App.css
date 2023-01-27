@@ -1,0 +1,83 @@
+:root {
+  --page-background: #1c1c1c;
+  --content-background: #1c2736;
+  --page-greenfont: #10B981;
+  --page-whitefont: white;
+  --page-greyfont: gray; 
+  --page-hrline: rgba(146, 137, 137, 0.192); 
+  --page-greenbtnfont: rgba(255, 255, 255, 0.642);
+  --page-btnfont:  #273549;
+}
+
+body {
+  background: var(--page-background);
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#main-div {
+  background: var(--content-background);
+  width: 50%;
+  margin: 50px auto;
+  padding: 100px 50px;
+  border-radius: 10px;
+  border: 5px solid var(--page-whitefont);
+}
+
+#white-font {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--page-whitefont);
+  margin-bottom: -30px;
+}
+
+#green-font {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--page-greenfont);
+  margin-bottom: 12px;
+}
+
+#grey-font {
+  color: var(--page-greyfont);
+  margin-top: 5px; 
+  margin-bottom: 30px;
+}
+
+#green-btn {
+  color: var(--page-greenbtnfont);
+  background: var(--page-greenfont);
+  text-align: center;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  width: 150px;
+}
+
+#green-btn:hover {
+  cursor: pointer;
+}
+
+hr {
+  height: 1px;
+  background-color: var(--page-hrline);
+  border: none;
+  margin: 25px 0px;
+}
+
+#button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#button-div button {
+  color: var(--page-greenfont);
+  background: var(--page-btnfont);
+  font-size: 12px;
+  text-align: center;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 150px;
+}
